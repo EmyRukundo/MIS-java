@@ -1,0 +1,12 @@
+Encapsulation allows the programmer to hide 
+and restrict access to data. capability of storing the same information.
+Inheritance is the capability of one class to inherit capabilities or properties from another class in Java.
+aggregation: capability storing an object inside another;
+Polymorphism is the ability of an object to take on many forms
+
+
+a method: must be a verb with a lowercase
+- in multiword name, the first letter will be lower letter, the rest words will take upper case
+
+overloading: the same name methods but different parameters
+ocerriding: The ability of a subclass to override a method allows a class to inherit from a superclass whose behavior is "close enough" and then to modify behavior as needed. 
