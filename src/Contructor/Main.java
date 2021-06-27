@@ -1,18 +1,21 @@
 package Contructor;
 
+//Example of default constructor
+class Student01{
+    int id;
+    String name;
 
-public class Main {
-    int modelYear;
-    String modelName;
+    void display(){System.out.println(id+" "+name);}
 
-    public Main(int year, String name) {
-        modelYear = year;
-        modelName = name;
-    }
+    public static void main(String args[]){
 
-    public static void main(String[] args) {
-        Main myCar = new Main(2015, "BMW");
-        System.out.println(myCar.modelYear + " " + myCar.modelName);
+        Student01 s1=new Student01();
+        Student01 s2=new Student01();
+
+        s1.display();
+        s2.display();
     }
 }
-// Output ==>>
+// Output
+// =>> 0 null
+//==> 0 null
